@@ -1,0 +1,13 @@
+---
+title: "Calendarizaci?n"
+---
+
+# Calendarizaci?n
+
+Esta p?gina presentar? el cronograma del curso en formato editable.
+
+- Tabla semanal con fechas y temas.
+- Clases te?ricas y talleres pr?cticos.
+- Lecturas y entregas asociadas.
+- Ayudant?as y apoyos.
+- [PENDIENTE: completar calendario detallado]

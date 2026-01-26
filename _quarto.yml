@@ -1,34 +1,50 @@
 project:
   type: website
-  output-dir: docs      # <-- GitHub Pages servirá desde aquí
+  output-dir: docs      # GitHub Pages servira desde aqui
 
 website:
-  favicon: resources/imagenes/logo.svg 
-  title: "Apuntes Sociología"
-  site-url:  https://apuntes-sociologia.me 
+  favicon: resources/imagenes/logo.svg
+  title: "Estad?stica Social I"
+  site-url:  https://apuntes-sociologia.me
   search: true
   page-navigation: true
   navbar:
-    title: false
+    title: "Estad?stica Social I"
     logo: resources/imagenes/logo.svg
-    logo-alt: "Apuntes Sociología"
-    logo-href: /  
+    logo-alt: "Estad?stica Social I"
+    logo-href: /
     left:
-      - text: "Cursos"
-        href: cursos/cursos.qmd  
-      - text: "Destacados"
-        href: index.qmd#destacados
-      - text: "Apuntes por año"
-        href: index.qmd#Año
-      - text: "Información"
-        href: about.qmd
-      - text: ¿Quieres aportar?
-        href: about.qmd#aporte
-
-    
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Programa"
+        href: programa.qmd
+      - text: "Calendarizaci?n"
+        href: calendarizacion.qmd
+      - text: "Clases"
+        href: clases.qmd
+      - text: "Ayudant?as"
+        href: ayudantias.qmd
+      - text: "Evaluaciones"
+        href: evaluaciones.qmd
+      - text: "Bibliograf?a"
+        href: bibliografia.qmd
+      - text: "Recursos"
+        href: recursos.qmd
+      - text: "Informaci?n"
+        href: informacion.qmd
+      - text: "FAQ"
+        href: faq.qmd
+      - text: "Extras"
+        menu:
+          - text: "About"
+            href: about.qmd
+          - text: "Comunidad"
+            href: comunidad.qmd
+          - text: "C?mo aportar"
+            href: about.qmd#aporte
     tools:
       - icon: github
-        href: https://github.com/KAravena/Repositorio-Sociologia-UChile # ← reemplaza por tu repo
+        href: https://github.com/KAravena/Estadistica-Social-FinisTerrae
         aria-label: GitHub
       - text: "<i class='bi bi-moon-stars'></i>"
         href: "javascript:void(0)"

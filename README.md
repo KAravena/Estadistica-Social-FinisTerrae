@@ -45,3 +45,7 @@ Si quieres aportar o colaborar:
 ---
 **Aprender es colectivo. Sociología que se teje en comunidad.**
 
+
+
+## Nota de publicacion
+`_site/` esta versionado como salida historica. Se mantiene por ahora y se eliminara en una fase posterior.

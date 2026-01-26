@@ -1,0 +1,13 @@
+---
+title: "Recursos"
+---
+
+# Recursos
+
+En esta p?gina se agrupan recursos t?cnicos y materiales de apoyo.
+
+- Instalaci?n de R y RStudio.
+- Gu?as de uso y plantillas.
+- Datasets de pr?ctica.
+- Enlaces ?tiles y software complementario.
+- [PENDIENTE: subir y enlazar recursos]

@@ -1,0 +1,13 @@
+---
+title: "Clases"
+---
+
+# Clases
+
+Aqu? se organizar?n las clases por semanas/temas con acceso a materiales.
+
+- ?ndice por semanas.
+- Apuntes, diapositivas y gu?as.
+- Actividades de clase.
+- Convenci?n de carpetas para materiales.
+- [PENDIENTE: enlazar materiales por semana]

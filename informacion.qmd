@@ -1,0 +1,13 @@
+---
+title: "Informaci?n"
+---
+
+# Informaci?n
+
+Esta secci?n re?ne informaci?n administrativa y de contacto del curso.
+
+- Docente responsable y equipo.
+- Canales de contacto.
+- Horarios de atenci?n.
+- Normas del curso y convivencia.
+- [PENDIENTE: completar datos de contacto y horarios]

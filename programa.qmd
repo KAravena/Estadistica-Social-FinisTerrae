@@ -1,0 +1,14 @@
+---
+title: "Programa"
+---
+
+# Programa
+
+Esta p?gina re?ne la estructura oficial de la asignatura y su organizaci?n acad?mica.
+
+- Identificaci?n institucional y datos base de la asignatura.
+- Descripci?n general y prop?sito formativo.
+- Competencias y resultados de aprendizaje (macro y micro).
+- Unidades y contenidos por temas.
+- Metodolog?as de ense?anza.
+- [PENDIENTE: completar con el programa oficial]
