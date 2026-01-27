@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Metodología de la Investigación Social • Sociología 2026 – Estad?stica Social I</title>
+<title>Metodología de la Investigación Social – Estadística Social I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./resources/imagenes/logo.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -75,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ultimos-apuntes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-categories','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ultimos-apuntes'] = new List('listing-ultimos-apuntes', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <!-- Aplica el esquema guardado ANTES de cargar estilos (evita flash) -->
 <script>
@@ -121,35 +90,6 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -323,12 +263,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./" class="navbar-brand navbar-brand-logo">
-    <img src="./resources/imagenes/logo.svg" alt="Estad?stica Social I" class="navbar-logo light-content">
-    <img src="./resources/imagenes/logo.svg" alt="Estad?stica Social I" class="navbar-logo dark-content">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./">
-    <span class="navbar-title">Estad?stica Social I</span>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Estadística Social I</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -341,58 +279,64 @@ window.Quarto = {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./programa.html"> 
-<span class="menu-text">Programa</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./calendarizacion.html"> 
-<span class="menu-text">Calendarizaci?n</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./clases.html"> 
-<span class="menu-text">Clases</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ayudantias.html"> 
-<span class="menu-text">Ayudant?as</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./evaluaciones.html"> 
-<span class="menu-text">Evaluaciones</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./bibliografia.html"> 
-<span class="menu-text">Bibliograf?a</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./recursos.html"> 
-<span class="menu-text">Recursos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./informacion.html"> 
-<span class="menu-text">Informaci?n</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./faq.html"> 
-<span class="menu-text">FAQ</span></a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-extras" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Extras</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curso" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Curso</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-extras">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-curso">    
         <li>
-    <a class="dropdown-item" href="./about.html">
- <span class="dropdown-text">About</span></a>
+    <a class="dropdown-item" href="./programa.html">
+ <span class="dropdown-text">Programa</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./comunidad.html">
- <span class="dropdown-text">Comunidad</span></a>
+    <a class="dropdown-item" href="./calendarizacion.html">
+ <span class="dropdown-text">Calendarización</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about.html#aporte">
- <span class="dropdown-text">C?mo aportar</span></a>
+    <a class="dropdown-item" href="./evaluaciones.html">
+ <span class="dropdown-text">Evaluaciones</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bibliografia.html">
+ <span class="dropdown-text">Bibliografía</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-clases" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Clases</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-clases">    
+        <li>
+    <a class="dropdown-item" href="./clases.html#catedra">
+ <span class="dropdown-text">Catedra</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./clases.html#taller-r">
+ <span class="dropdown-text">Taller R (práctico)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ayudantias.html">
+ <span class="dropdown-text">Ayudantías</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos">    
+        <li>
+    <a class="dropdown-item" href="./recursos.html">
+ <span class="dropdown-text">Recursos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./informacion.html">
+ <span class="dropdown-text">Información</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./faq.html">
+ <span class="dropdown-text">FAQ</span></a>
   </li>  
     </ul>
   </li>
@@ -434,209 +378,125 @@ window.Quarto = {
 </header>
 
 
-<section id="repositorio-de-apuntes-de-sociología-u.-de-chile" class="level1 hero hero-anim text-white">
-<h1>Repositorio de Apuntes de Sociología | U. de Chile</h1>
-<p>Centralizamos <strong>apuntes y materiales</strong> curados por <strong>año</strong>, <strong>semestre</strong> y <strong>curso</strong>.<br>
-<strong>Aprender es colectivo, Sociología que se teje en comunidad.</strong></p>
-<p><a href="./cursos/cursos.html" class="btn btn-primario btn-lg">Ver Apuntes</a> <a href="./about.html" class="btn btn-borde btn-lg">About</a></p>
-</section>
-<section id="destacados" class="level2">
-<h2 class="anchored" data-anchor-id="destacados">Destacados</h2>
-<div class="features-grid">
-<div class="feature-tile">
-<div class="ico">
-🔎
+<div class="hero-course">
+<div class="hero-motion" aria-hidden="true">
+
 </div>
-<section id="guía-de-uso" class="level3">
-<h3 class="anchored" data-anchor-id="guía-de-uso">Guía de uso</h3>
-<p>Usa el <strong>buscador</strong> y los <strong>filtros</strong> para encontrar apuntes por curso o año.<br>
-<a href="./about.html">Más información</a></p>
-</section>
-</div>
-<div class="feature-tile">
-<div class="ico">
-🧩
-</div>
-<section id="formato-de-apuntes" class="level3">
-<h3 class="anchored" data-anchor-id="formato-de-apuntes">Formato de apuntes</h3>
-<p>Estructura libre: se brindan <strong>resumenes</strong>, <strong>síntesis</strong> y enlaces a más material con las referencías correspondientes. <a href="./about.html">Ver guía de formato</a></p>
-</section>
-</div>
-<div class="feature-tile">
-<div class="ico">
-🤝
-</div>
-<section id="quieres-aportar" class="level3">
-<h3 class="anchored" data-anchor-id="quieres-aportar">¿Quieres aportar?</h3>
-<p>Comparte tu archivo mediante un <strong>formulario</strong> o el <strong>drive</strong> del repositorio.<br>
-<a href="./about.html#aporte">Cómo aportar</a></p>
-</section>
-</div>
-</div>
-</section>
-<section id="Año" class="level2">
-<h2 class="anchored" data-anchor-id="Año">Apuntes por año</h2>
-<div class="years-min">
-<div class="year-min">
-<div class="badge-year">
-<a class="cover" href="./apuntes/anio-1/anio-1.html" aria-label="Ir a 1° año"></a>
-<h3 class="anchored">
-1° año
-</h3>
-<p>
-Fundamentos comunes.
+<div class="container-fluid px-4 px-md-5 py-5">
+<div class="row align-items-center g-5">
+<div class="col-12">
+<p class="eyebrow">
+Sociología · 3° semestre · 6 SCT · Universidad Finis Terrae 2026
 </p>
-</div>
-</div>
-<div class="year-min">
-<div class="badge-year">
-<a class="cover" href="./apuntes/anio-2/anio-2.html" aria-label="Ir a 2° año"></a>
-<h3 class="anchored">
-2° año
-</h3>
-<p>
-Teoría y métodos.
+<h1 class="display-4 fw-semibold">
+Estadística Social I
+</h1>
+<p class="lead">
+Herramientas estadísticas descriptivas para investigar fenómenos sociales con datos.
 </p>
-</div>
-</div>
-<div class="year-min">
-<div class="badge-year">
-<a class="cover" href="./apuntes/anio-3/anio-3.html" aria-label="Ir a 3° año"></a>
-<h3 class="anchored">
-3° año
-</h3>
-<p>
-Profundización.
+<p class="text-muted">
 </p>
+<div class="d-flex flex-wrap gap-2 mt-4 hero-cta">
+<p><a href="./programa.html" class="btn btn-primary btn-md">Ver programa</a> <a href="./clases.html" class="btn btn-outline-secondary btn-md">Ver clases</a> <a href="./ayudantias.html" class="btn btn-outline-secondary btn-md">Ver ayudantías</a></p>
 </div>
-</div>
-<div class="year-min">
-<div class="badge-year">
-<a class="cover" href="./apuntes/anio-4/anio-4.html" aria-label="Ir a 4° año y electivos"></a>
-<h3 class="anchored">
-4° año &amp; electivos
-</h3>
-<p>
-Integración
-</p>
+<div class="mt-4 small text-muted">
+<p><span class="me-3">Horario: [PENDIENTE: completar]</span> <span class="me-3">Sala: [PENDIENTE: completar] </span> <span>Asistencia mínima: 70%</span></p>
 </div>
 </div>
 </div>
-<div class="banda oscura">
-<section id="ultimos" class="level3 text-white container">
-<h3 class="text-white anchored" data-anchor-id="ultimos">Últimos apuntes</h3>
-<p><a href="apuntes/" class="btn btn-borde-claro btn-sm">Ver todos</a></p>
-<div id="listing-ultimos-apuntes" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Title
-</th>
-
-<th>
-Categories
-</th>
-
-<th>
-Date
-</th>
-
-<th>
-Description
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1769462478914" data-listing-reading-time-sort="1" data-listing-word-count-sort="14" data-listing-title-sort="1° Año" data-listing-filename-sort="anio-1.qmd">
-<td>
-<a href="./apuntes/anio-1/anio-1.html" class="title listing-title">1° Año</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">
-
-</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1769462478961" data-listing-reading-time-sort="1" data-listing-word-count-sort="14" data-listing-title-sort="2° Año" data-listing-filename-sort="anio-2.qmd">
-<td>
-<a href="./apuntes/anio-2/anio-2.html" class="title listing-title">2° Año</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">
-
-</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-file-modified-sort="1769462478977" data-listing-reading-time-sort="1" data-listing-word-count-sort="14" data-listing-title-sort="3° Año" data-listing-filename-sort="anio-3.qmd">
-<td>
-<a href="./apuntes/anio-3/anio-3.html" class="title listing-title">3° Año</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">
-
-</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-file-modified-sort="1769462479029" data-listing-reading-time-sort="1" data-listing-word-count-sort="14" data-listing-title-sort="4° Año" data-listing-filename-sort="anio-4.qmd">
-<td>
-<a href="./apuntes/anio-4/anio-4.html" class="title listing-title">4° Año</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">
-
-</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-</div>
-<div class="section-title">
-<div class="section-title">
-
-
-
 </div>
 </div>
-</section>
+<div class="course-sections container-fluid px-4 px-md-5">
+<div class="course-grid">
+<div class="course-left">
+<div class="quick-links-row d-flex align-items-center gap-3 flex-nowrap mt-2 mb-3">
+<span class="quick-links-label">Accesos rápidos:</span>
+<div class="quick-links d-flex flex-nowrap gap-2">
+<p><a href="./programa.html" class="btn btn-primary btn-sm">Programa</a> <a href="./calendarizacion.html" class="btn btn-outline-secondary btn-sm">Calendarización</a> <a href="./clases.html" class="btn btn-outline-secondary btn-sm">Clases</a> <a href="./ayudantias.html" class="btn btn-outline-secondary btn-sm">Ayudantías</a> <a href="./recursos.html" class="btn btn-outline-secondary btn-sm">Recursos</a> <a href="./informacion.html" class="btn btn-outline-secondary btn-sm">Información</a></p>
+</div>
+</div>
+<div class="team-strip mt-4 mb-4">
+<div class="team-grid">
+<div class="team-item">
+<div class="d-flex align-items-center gap-3 mb-3">
+<div class="avatar-placeholder" aria-hidden="true">
+
+</div>
+<div>
+<div class="fw-semibold">
+Daniela Olivares Collío
+</div>
+<div class="text-muted small">
+Docencte
+</div>
+</div>
+</div>
+<ul class="list-unstyled small mb-0">
+<li>
+<strong>Correo:</strong> [danielaolivarescollio@gmail.com]
+</li>
+<li>
+<strong>Horario de atención:</strong> [PENDIENTE: horario]
+</li>
+<li>
+<strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]
+</li>
+</ul>
+</div>
+<div class="team-item">
+<div class="d-flex align-items-center gap-3 mb-3">
+<div class="avatar-placeholder" aria-hidden="true">
+
+</div>
+<div>
+<div class="fw-semibold">
+Katherine Aravena Herrera
+</div>
+<div class="text-muted small">
+Ayudante
+</div>
+</div>
+</div>
+<ul class="list-unstyled small mb-0">
+<li>
+<strong>Correo:</strong>katherine.aravena@ug.uchile.cl
+</li>
+<li>
+<strong>Horario de atención:</strong> [PENDIENTE: horario]
+</li>
+<li>
+<strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="course-right">
+<a href="./ultima-informacion.html" class="latest-card" aria-label="Ver última información del curso">
+<div class="latest-title">
+Última información
+</div>
+<div class="latest-feed" aria-label="Últimas actualizaciones">
+<div class="latest-item">
+<p><span class="latest-date">[PENDIENTE: fecha]</span> <span class="latest-text">[PENDIENTE: aviso breve del curso]</span></p>
+</div>
+<div class="latest-item">
+<p><span class="latest-date">[PENDIENTE: fecha]</span> <span class="latest-text">[PENDIENTE: aviso breve del curso]</span></p>
+</div>
+<div class="latest-item">
+<p><span class="latest-date">[PENDIENTE: fecha]</span> <span class="latest-text">[PENDIENTE: aviso breve del curso]</span></p>
+</div>
+</div>
+<div class="latest-footer">
+Ver todas las actualizaciones
+</div>
+</a><p><a href="./ultima-informacion.html" class="latest-card" aria-label="Ver última información del curso"></a></p>
+</div>
+</div>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

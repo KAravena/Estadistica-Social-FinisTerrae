@@ -1,108 +1,105 @@
 ---
-title: "Repositorio de Apuntes de Sociología"
-pagetitle: "Comunidad de estudiantes Sociología U. de Chile"
-title-block: true 
+title: "Estadística Social I"
+pagetitle: "Metodología de la Investigación Social"
+title-block: false
 page-layout: full
 toc: false
-
-listing:
-  - id: ultimos-apuntes
-    contents:
-      - apuntes/*/*.qmd
-    sort: "date desc"
-    type: table
-    max-items: 6
-    fields: [title, categories, date, description]
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    feed: false
 ---
 
-::: {.hero .hero-anim .text-white}
-# Repositorio de Apuntes de Sociología | U. de Chile
-Centralizamos **apuntes y materiales** curados por **año**, **semestre** y **curso**.  
-**Aprender es colectivo, Sociología que se teje en comunidad.**
+::: {.hero-course}
+<div class="hero-motion" aria-hidden="true"></div>
+<div class="container-fluid px-4 px-md-5 py-5">
+<div class="row align-items-center g-5">
+<div class="col-12">
+<p class="eyebrow">Sociología · 3° semestre · 6 SCT · Universidad Finis Terrae 2026</p>
+<h1 class="display-4 fw-semibold">Estadística Social I</h1>
+<p class="lead">Herramientas estadísticas descriptivas para investigar fenómenos sociales con datos.</p>
+<p class="text-muted"></p>
 
-[Ver Apuntes](cursos/cursos.qmd){.btn .btn-primario .btn-lg}
-[About](about.qmd){.btn .btn-borde .btn-lg}
-:::
+<div class="d-flex flex-wrap gap-2 mt-4 hero-cta">
+<a href="programa.qmd" class="btn btn-primary btn-md">Ver programa</a>
+<a href="clases.qmd" class="btn btn-outline-secondary btn-md">Ver clases</a>
+<a href="ayudantias.qmd" class="btn btn-outline-secondary btn-md">Ver ayudantías</a>
+</div>
 
-
-## Destacados {#destacados}  
-
-::: {.features-grid}
-::: {.feature-tile}
-<div class="ico">🔎</div>
-### Guía de uso
-Usa el **buscador** y los **filtros** para encontrar apuntes por curso o año.  
-[Más información](/about.qmd)
-:::
-::: {.feature-tile}
-<div class="ico">🧩</div>
-### Formato de apuntes
-Estructura libre: se brindan **resumenes**, **síntesis** y enlaces a más material con las referencías correspondientes.
-[Ver guía de formato](/about.qmd)
-:::
-::: {.feature-tile}
-<div class="ico">🤝</div>
-### ¿Quieres aportar?
-Comparte tu archivo mediante un **formulario** o el **drive** del repositorio.  
-[Cómo aportar](about.qmd#aporte)
-:::
-:::
-
-## Apuntes por año {#Año}
-
-::: {.years-min}
-
-::: {.year-min}
-<div class="badge-year">
-  <a class="cover" href="/apuntes/anio-1/anio-1.qmd" aria-label="Ir a 1° año"></a>
-  <h3>1° año</h3>
-  <p>Fundamentos comunes.</p>
+<div class="mt-4 small text-muted">
+<span class="me-3">Horario: [PENDIENTE: completar]</span>
+<span class="me-3">Sala: [PENDIENTE: completar] </span>
+<span>Asistencia mínima: 70%</span>
+</div>
+</div>
+</div>
 </div>
 :::
 
-::: {.year-min}
-<div class="badge-year">
-  <a class="cover" href="/apuntes/anio-2/anio-2.qmd" aria-label="Ir a 2° año"></a>
-  <h3>2° año</h3>
-  <p>Teoría y métodos.</p>
+<div class="course-sections container-fluid px-4 px-md-5">
+<div class="course-grid">
+<div class="course-left">
+<div class="quick-links-row d-flex align-items-center gap-3 flex-nowrap mt-2 mb-3">
+<span class="quick-links-label">Accesos rápidos:</span>
+<div class="quick-links d-flex flex-nowrap gap-2">
+<a href="programa.qmd" class="btn btn-primary btn-sm">Programa</a>
+<a href="calendarizacion.qmd" class="btn btn-outline-secondary btn-sm">Calendarización</a>
+<a href="clases.qmd" class="btn btn-outline-secondary btn-sm">Clases</a>
+<a href="ayudantias.qmd" class="btn btn-outline-secondary btn-sm">Ayudantías</a>
+<a href="recursos.qmd" class="btn btn-outline-secondary btn-sm">Recursos</a>
+<a href="informacion.qmd" class="btn btn-outline-secondary btn-sm">Información</a>
 </div>
-:::
-
-::: {.year-min}
-<div class="badge-year">
-  <a class="cover" href="/apuntes/anio-3/anio-3.qmd" aria-label="Ir a 3° año"></a>
-  <h3>3° año</h3>
-  <p>Profundización.</p>
 </div>
-:::
 
-::: {.year-min}
-<div class="badge-year">
-  <a class="cover" href="/apuntes/anio-4/anio-4.qmd" aria-label="Ir a 4° año y electivos"></a>
-  <h3>4° año & electivos</h3>
-  <p>Integración</p>
+<div class="team-strip mt-4 mb-4">
+<div class="team-grid">
+<div class="team-item">
+<div class="d-flex align-items-center gap-3 mb-3">
+<div class="avatar-placeholder" aria-hidden="true"></div>
+<div>
+<div class="fw-semibold">Daniela Olivares Collío</div>
+<div class="text-muted small">Docencte</div>
 </div>
-:::
-
-:::
-
-
-::: {.banda .oscura}
-::: {.container}
-### Últimos apuntes {#ultimos .text-white}
-[Ver todos](apuntes/){.btn .btn-borde-claro .btn-sm}
-
-::: {#ultimos-apuntes}
-:::
-:::
-:::
-
-::: {.section-title}
-
-::: {.section-title}
-
+</div>
+<ul class="list-unstyled small mb-0">
+<li><strong>Correo:</strong> [danielaolivarescollio@gmail.com]</li>
+<li><strong>Horario de atención:</strong> [PENDIENTE: horario]</li>
+<li><strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]</li>
+</ul>
+</div>
+<div class="team-item">
+<div class="d-flex align-items-center gap-3 mb-3">
+<div class="avatar-placeholder" aria-hidden="true"></div>
+<div>
+<div class="fw-semibold">Katherine Aravena Herrera</div>
+<div class="text-muted small">Ayudante</div>
+</div>
+</div>
+<ul class="list-unstyled small mb-0">
+<li><strong>Correo:</strong>katherine.aravena@ug.uchile.cl</li>
+<li><strong>Horario de atención:</strong> [PENDIENTE: horario]</li>
+<li><strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="course-right">
+<a href="ultima-informacion.qmd" class="latest-card" aria-label="Ver última información del curso">
+<div class="latest-title">Última información</div>
+<div class="latest-feed" aria-label="Últimas actualizaciones">
+<div class="latest-item">
+<span class="latest-date">[PENDIENTE: fecha]</span>
+<span class="latest-text">[PENDIENTE: aviso breve del curso]</span>
+</div>
+<div class="latest-item">
+<span class="latest-date">[PENDIENTE: fecha]</span>
+<span class="latest-text">[PENDIENTE: aviso breve del curso]</span>
+</div>
+<div class="latest-item">
+<span class="latest-date">[PENDIENTE: fecha]</span>
+<span class="latest-text">[PENDIENTE: aviso breve del curso]</span>
+</div>
+</div>
+<div class="latest-footer">Ver todas las actualizaciones</div>
+</a>
+</div>
+</div>
+</div>
 

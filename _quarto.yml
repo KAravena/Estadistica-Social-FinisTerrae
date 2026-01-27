@@ -1,54 +1,65 @@
 project:
   type: website
-  output-dir: docs      # GitHub Pages servira desde aqui
+  output-dir: docs
+  render:
+    - index.qmd
+    - programa.qmd
+    - calendarizacion.qmd
+    - clases.qmd
+    - ayudantias.qmd
+    - evaluaciones.qmd
+    - bibliografia.qmd
+    - recursos.qmd
+    - informacion.qmd
+    - ultima-informacion.qmd
+    - faq.qmd
+    - about.qmd
+    - comunidad.qmd
 
 website:
   favicon: resources/imagenes/logo.svg
-  title: "Estad?stica Social I"
-  site-url:  https://apuntes-sociologia.me
+  title: "Estadística Social I"
+  site-url: https://apuntes-sociologia.me
   search: true
   page-navigation: true
   navbar:
-    title: "Estad?stica Social I"
-    logo: resources/imagenes/logo.svg
-    logo-alt: "Estad?stica Social I"
-    logo-href: /
+    title: "Estadística Social I "
     left:
       - text: "Inicio"
         href: index.qmd
-      - text: "Programa"
-        href: programa.qmd
-      - text: "Calendarizaci?n"
-        href: calendarizacion.qmd
-      - text: "Clases"
-        href: clases.qmd
-      - text: "Ayudant?as"
-        href: ayudantias.qmd
-      - text: "Evaluaciones"
-        href: evaluaciones.qmd
-      - text: "Bibliograf?a"
-        href: bibliografia.qmd
-      - text: "Recursos"
-        href: recursos.qmd
-      - text: "Informaci?n"
-        href: informacion.qmd
-      - text: "FAQ"
-        href: faq.qmd
-      - text: "Extras"
+      - text: "Curso"
         menu:
-          - text: "About"
-            href: about.qmd
-          - text: "Comunidad"
-            href: comunidad.qmd
-          - text: "C?mo aportar"
-            href: about.qmd#aporte
+          - text: "Programa"
+            href: programa.qmd
+          - text: "Calendarización"
+            href: calendarizacion.qmd
+          - text: "Evaluaciones"
+            href: evaluaciones.qmd
+          - text: "Bibliografía"
+            href: bibliografia.qmd
+      - text: "Clases"
+        menu:
+          - text: "Catedra"
+            href: clases.qmd#catedra
+          - text: "Taller R (práctico)"
+            href: clases.qmd#taller-r
+          - text: "Ayudantías"
+            href: ayudantias.qmd
+      - text: "Recursos"
+        menu:
+          - text: "Recursos"
+            href: recursos.qmd
+          - text: "Información"
+            href: informacion.qmd
+          - text: "FAQ"
+            href: faq.qmd
     tools:
       - icon: github
         href: https://github.com/KAravena/Estadistica-Social-FinisTerrae
         aria-label: GitHub
       - text: "<i class='bi bi-moon-stars'></i>"
         href: "javascript:void(0)"
-        aria-label: Cambiar tema
+        aria-label: "Cambiar tema"
 
 format:
   html:
@@ -120,3 +131,4 @@ include-after-body:
         });
       })();
       </script>
+
