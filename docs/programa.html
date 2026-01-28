@@ -359,20 +359,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="programa" class="level1">
-<h1>Programa</h1>
-<p>Esta p?gina re?ne la estructura oficial de la asignatura y su organizaci?n acad?mica.</p>
-<ul>
-<li>Identificaci?n institucional y datos base de la asignatura.</li>
-<li>Descripci?n general y prop?sito formativo.</li>
-<li>Competencias y resultados de aprendizaje (macro y micro).</li>
-<li>Unidades y contenidos por temas.</li>
-<li>Metodolog?as de ense?anza.</li>
-<li>[PENDIENTE: completar con el programa oficial]</li>
-</ul>
+<div class="{=html}">
+<style>
+  /* Botón tipo "pill" al lado del título (más pequeño y más separado) */
+  .title-download-btn {
+    margin-left: 1.5rem;     /* más corrido a la derecha (sube a 2rem si quieres) */
+    vertical-align: middle;
+    white-space: nowrap;
+
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+
+    padding: .35rem .75rem;  /* más pequeño */
+    border-radius: 9999px;
+
+    background: #2f7f7f;
+    color: #fff !important;
+    text-decoration: none !important;
+
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,.12); /* un poco más sutil */
+
+    font-weight: 600;
+    font-size: .9rem;        /* más pequeño */
+    line-height: 1;
+  }
+
+  .title-download-btn:hover,
+  .title-download-btn:focus {
+    background: #276b6b;
+    color: #fff !important;
+    transform: translateY(-1px);
+  }
+
+  .title-download-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(0,0,0,.12);
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const pdfHref = "resources/PROGRAMA_ESI_2026.pdf";
+    const titleEl =
+      document.querySelector(".quarto-title-block h1.title") ||
+      document.querySelector("h1.title") ||
+      document.querySelector("h1");
+
+    if (!titleEl) return;
+
+    // Evitar duplicados si recargas / renderizas
+    if (document.querySelector(".title-download-btn")) return;
+
+    const a = document.createElement("a");
+    a.href = pdfHref;
+    a.textContent = "Descargar programa";
+    a.className = "title-download-btn";
+    a.setAttribute("download", "");
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener");
+
+    titleEl.appendChild(a);
+  });
+</script>
+<noscript>
+<p>
+<a href="resources/PROGRAMA_ESI_2026.pdf">Descargar programa</a>
+</p>
+</noscript>
+</div>
+<div class="{=html}">
+<iframe src="resources/PROGRAMA_ESI_2026.pdf" width="100%" height="900" style="border:1px solid #ddd;">
+</iframe>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -789,6 +850,36 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<div class="site-footer">
+<div class="footer-line">
+<i class="bi bi-c-circle"></i><span>Contenido © 2026 por <strong>Daniela Olivares</strong></span>
+</div>
+<div class="footer-line">
+<i class="bi bi-cc-circle"></i><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Licencia Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)</a>
+</div>
+<div class="footer-line">
+<i class="bi bi-person-badge"></i><span>Sitio creado por <strong>Katherine Aravena</strong></span>
+</div>
+</div>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<div class="site-footer">
+<div class="footer-line">
+<i class="bi bi-braces"></i><span>Hecho con <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a></span>
+</div>
+<div class="footer-line">
+<i class="bi bi-github"></i><a href="https://github.com/KAravena/Estadistica-Social-FinisTerrae" target="_blank" rel="noopener">Ver el código en GitHub</a>
+</div>
+</div>
+</div>
+  </div>
+</footer>
 <!-- Toggle claro/oscuro (usa Quarto si existe; si no, fallback manual) -->
 <script>
 (function() {

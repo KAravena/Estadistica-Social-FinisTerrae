@@ -37,7 +37,7 @@ toc: false
 <span class="quick-links-label">Accesos rápidos:</span>
 <div class="quick-links d-flex flex-nowrap gap-2">
 <a href="calendarizacion.qmd" class="btn btn-primary btn-sm">Calendarización</a>
-<a href="evaluaciones.qmd" class="btn btn-outline-secondary btn-sm">Evluaciones</a>
+<a href="evaluaciones.qmd" class="btn btn-outline-secondary btn-sm">Evaluaciones</a>
 <a href="bibliografia.qmd" class="btn btn-outline-secondary btn-sm">Bibliografia</a>
 <a href="informacion.qmd" class="btn btn-outline-secondary btn-sm">Información</a>
 </div>
