@@ -52,7 +52,7 @@ toc: false
 </div>
 <div>
 <div class="fw-semibold">Daniela Olivares Collío</div>
-<div class="text-muted small">Docencte</div>
+<div class="text-muted small">Docente</div>
 </div>
 </div>
 <ul class="list-unstyled small mb-0">
