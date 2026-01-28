@@ -9,12 +9,8 @@ project:
     - ayudantias.qmd
     - evaluaciones.qmd
     - bibliografia.qmd
-    - recursos.qmd
     - informacion.qmd
     - ultima-informacion.qmd
-    - faq.qmd
-    - about.qmd
-    - comunidad.qmd
 
 website:
   favicon: resources/imagenes/logo.svg
@@ -41,18 +37,11 @@ website:
         menu:
           - text: "Catedra"
             href: clases.qmd#catedra
-          - text: "Taller R (práctico)"
-            href: clases.qmd#taller-r
           - text: "Ayudantías"
             href: ayudantias.qmd
-      - text: "Recursos"
-        menu:
-          - text: "Recursos"
-            href: recursos.qmd
-          - text: "Información"
-            href: informacion.qmd
-          - text: "FAQ"
-            href: faq.qmd
+      - text: "Información"
+        href: informacion.qmd
+
     tools:
       - icon: github
         href: https://github.com/KAravena/Estadistica-Social-FinisTerrae

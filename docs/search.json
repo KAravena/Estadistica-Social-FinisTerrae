@@ -1,96 +1,5 @@
 [
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "FAQ\nPreguntas frecuentes para orientar el uso del curso y el sitio.\n\nC?mo acceder a materiales.\nC?mo entregar tareas.\nPol?ticas de retraso y recuperaci?n.\nSoporte t?cnico.\n[PENDIENTE: completar preguntas frecuentes]"
-  },
-  {
-    "objectID": "recursos.html",
-    "href": "recursos.html",
-    "title": "Recursos",
-    "section": "",
-    "text": "Recursos\nEn esta p?gina se agrupan recursos t?cnicos y materiales de apoyo.\n\nInstalaci?n de R y RStudio.\nGu?as de uso y plantillas.\nDatasets de pr?ctica.\nEnlaces ?tiles y software complementario.\n[PENDIENTE: subir y enlazar recursos]"
-  },
-  {
-    "objectID": "evaluaciones.html",
-    "href": "evaluaciones.html",
-    "title": "Evaluaciones",
-    "section": "",
-    "text": "Evaluaciones\nEsta p?gina describe el sistema de evaluaci?n del curso.\n\nTabla de evaluaciones y ponderaciones.\nF?rmulas de nota de presentaci?n (NP) y nota final (NF).\nReglas de aprobaci?n y asistencia.\nIndicaciones para entregas.\n[PENDIENTE: incorporar fechas y detalles espec?ficos]"
-  },
-  {
-    "objectID": "clases.html",
-    "href": "clases.html",
-    "title": "Clases",
-    "section": "",
-    "text": "Aqu? se organizar?n las clases por semanas/temas con acceso a materiales.\n\n?ndice por semanas.\nApuntes, diapositivas y gu?as.\nActividades de clase.\nConvenci?n de carpetas para materiales.\n[PENDIENTE: enlazar materiales por semana]\n\n\n\n[PENDIENTE: contenido de c?tedra]\n\n\n\n[PENDIENTE: contenido de taller R]"
-  },
-  {
-    "objectID": "clases.html#catedra",
-    "href": "clases.html#catedra",
-    "title": "Clases",
-    "section": "",
-    "text": "[PENDIENTE: contenido de c?tedra]"
-  },
-  {
-    "objectID": "clases.html#taller-r",
-    "href": "clases.html#taller-r",
-    "title": "Clases",
-    "section": "",
-    "text": "[PENDIENTE: contenido de taller R]"
-  },
-  {
-    "objectID": "programa.html",
-    "href": "programa.html",
-    "title": "Programa",
-    "section": "",
-    "text": "Programa\nEsta p?gina re?ne la estructura oficial de la asignatura y su organizaci?n acad?mica.\n\nIdentificaci?n institucional y datos base de la asignatura.\nDescripci?n general y prop?sito formativo.\nCompetencias y resultados de aprendizaje (macro y micro).\nUnidades y contenidos por temas.\nMetodolog?as de ense?anza.\n[PENDIENTE: completar con el programa oficial]"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Estadística Social I",
-    "section": "",
-    "text": "Sociología · 3° semestre · 6 SCT · Universidad Finis Terrae 2026\n\n\nEstadística Social I\n\n\nHerramientas estadísticas descriptivas para investigar fenómenos sociales con datos.\n\n\n\n\nVer programa Ver clases Ver ayudantías\n\n\nHorario: [PENDIENTE: completar] Sala: [PENDIENTE: completar]  Asistencia mínima: 70%\n\n\n\n\n\n\n\n\n\nAccesos rápidos:\n\nPrograma Calendarización Clases Ayudantías Recursos Información\n\n\n\n\n\n\n\n\n\n\n\nDaniela Olivares Collío\n\n\nDocencte\n\n\n\n\n\nCorreo: [danielaolivarescollio@gmail.com]\n\n\nHorario de atención: [PENDIENTE: horario]\n\n\nModalidad: [PENDIENTE: presencial/virtual]\n\n\n\n\n\n\n\n\n\n\nKatherine Aravena Herrera\n\n\nAyudante\n\n\n\n\n\nCorreo:katherine.aravena@ug.uchile.cl\n\n\nHorario de atención: [PENDIENTE: horario]\n\n\nModalidad: [PENDIENTE: presencial/virtual]\n\n\n\n\n\n\n\n\n\nÚltima información\n\n\n\n[PENDIENTE: fecha] [PENDIENTE: aviso breve del curso]\n\n\n[PENDIENTE: fecha] [PENDIENTE: aviso breve del curso]\n\n\n[PENDIENTE: fecha] [PENDIENTE: aviso breve del curso]\n\n\n\nVer todas las actualizaciones"
-  },
-  {
-    "objectID": "calendarizacion.html",
-    "href": "calendarizacion.html",
-    "title": "Calendarizaci?n",
-    "section": "",
-    "text": "Calendarizaci?n\nEsta p?gina presentar? el cronograma del curso en formato editable.\n\nTabla semanal con fechas y temas.\nClases te?ricas y talleres pr?cticos.\nLecturas y entregas asociadas.\nAyudant?as y apoyos.\n[PENDIENTE: completar calendario detallado]"
-  },
-  {
-    "objectID": "ayudantias.html",
-    "href": "ayudantias.html",
-    "title": "Ayudant?as",
-    "section": "",
-    "text": "Ayudant?as\nEsta secci?n concentra el apoyo pr?ctico del curso y sus materiales.\n\nObjetivos de las ayudant?as.\nModalidad de trabajo.\nHorario y lugar.\nMateriales de apoyo y ejercicios.\n[PENDIENTE: definir horario y responsables]"
-  },
-  {
-    "objectID": "bibliografia.html",
-    "href": "bibliografia.html",
-    "title": "Bibliograf?a",
-    "section": "",
-    "text": "Bibliograf?a\nAqu? se listar? la bibliograf?a obligatoria, complementaria y sugerida.\n\nBibliograf?a b?sica/obligatoria.\nBibliograf?a complementaria.\nBibliograf?a sugerida o recomendada.\nEnlaces a recursos digitales (si aplica).\n[PENDIENTE: completar listado oficial]"
-  },
-  {
-    "objectID": "informacion.html",
-    "href": "informacion.html",
-    "title": "Informaci?n",
-    "section": "",
-    "text": "Informaci?n\nEsta secci?n re?ne informaci?n administrativa y de contacto del curso.\n\nDocente responsable y equipo.\nCanales de contacto.\nHorarios de atenci?n.\nNormas del curso y convivencia.\n[PENDIENTE: completar datos de contacto y horarios]"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre la comunidad",
-    "section": "",
-    "text": "Información general\n\nEste repositorio reúne apuntes y materiales hechos por estudiantes de Sociología de la U. de Chile. La idea es simple: que los increíbles materiales que vamos produciendo no se pierdan y queden disponible para quienes vienen después. Un repositorio por y para los estudiantes y comunidad de sociología. Aquí te contamos cómo usar el sitio, cómo estamos organizando los aportes y cómo sumarte.\n\n\n\nGuía de uso\n\nEn Apuntes puedes buscar y filtrar por año, semestre o curso. Cada nota trae título y una breve descripción; cuando corresponde, también categorías para facilitar la navegación.\n\n\n\nSobre los apuntes\n\nLos apuntes representan el corazón del repositorio. La idea es que cada apunte quede referenciado de forma adecuada (apa 7) como parte de la memoria y construcción de una comunidad transparente y colaborativa. El formato lo define quien aporta, puede ser una presentación de ayudantías, apuntes de textos, resúmenes de clases, preparación de evaluaciones,etc. Valoramos la diversidad de estilos y la voz propia. Lo importante es que el apunte sea útil y legible.\n\n\n\n¿Quieres aportar?\n\nEste espacio crece con los aportes de la comunidad de sociología, puedes hacerlo de 2 formas:\nSubiendo tu archivo mediante el formulario del repositorio (Google Forms):\nAbrir formulario de aportes\n\nEn la carpeta Drive del repositorio. Esta carpeta cuenta con un archivo Excel para completar la información de los colaboradores en la pestaña Comunidad de la página -proximamente-, Para completar los datos del archivo -despliega Plantilla de nombre de archivo por ramo :\n\n\nEl formato del archivo subido (PDF para facilitar lectura web ) debe ser el siguiente:\n\n[Ramo]_[Año]_[Tema]_[Apellido_Nombre].pdf\n  Por ejemplo: FilosofíaSocial_2022_prueba1_Carrasco_Andrea.pdf\n\nAbrir Drive\n\n\n\n\n\n  \n\n\n\nMás sobre el proyecto\n\nUsamos Quarto para gestionar y publicar contenidos, con despliegue automático en GitHub Pages.\nObjetivos: - Facilitar el acceso a apuntes, resúmenes y bibliografía.\n- Fomentar la colaboración y el trabajo colectivo.\n- Construir conocimiento en común como parte del aprendizaje universitario.\n- Asegurar que materiales valiosos queden disponibles para nuevas generaciones.\nDisclaimer: esto no reemplaza el estudio personal ni la elaboración de apuntes propios. Buscamos conservar, complementar y ofrecer un recurso colectivo. Cada estudiante sigue siendo responsable de su propio aprendizaje, solo que ahora lo hacemos en conjunto.\n\n\nCualquier comentario, sugerencia o peticion contactarse con el equipo:\n\n\nEquipo\n\n\nAprender es colectivo. Sociología que se teje en comunidad."
-  },
-  {
     "objectID": "ultima-informacion.html",
     "href": "ultima-informacion.html",
     "title": "Última información",
@@ -110,5 +19,68 @@
     "title": "Última información",
     "section": "",
     "text": "[PENDIENTE: listado cronológico de avisos anteriores]"
+  },
+  {
+    "objectID": "bibliografia.html",
+    "href": "bibliografia.html",
+    "title": "Bibliograf?a",
+    "section": "",
+    "text": "Bibliograf?a\nAqu? se listar? la bibliograf?a obligatoria, complementaria y sugerida.\n\nBibliograf?a b?sica/obligatoria.\nBibliograf?a complementaria.\nBibliograf?a sugerida o recomendada.\nEnlaces a recursos digitales (si aplica).\n[PENDIENTE: completar listado oficial]"
+  },
+  {
+    "objectID": "ayudantias.html",
+    "href": "ayudantias.html",
+    "title": "Ayudant?as",
+    "section": "",
+    "text": "Ayudant?as\nEsta secci?n concentra el apoyo pr?ctico del curso y sus materiales.\n\nObjetivos de las ayudant?as.\nModalidad de trabajo.\nHorario y lugar.\nMateriales de apoyo y ejercicios.\n[PENDIENTE: definir horario y responsables]"
+  },
+  {
+    "objectID": "calendarizacion.html",
+    "href": "calendarizacion.html",
+    "title": "Calendarizaci?n",
+    "section": "",
+    "text": "Calendarizaci?n\nEsta p?gina presentar? el cronograma del curso en formato editable.\n\nTabla semanal con fechas y temas.\nClases te?ricas y talleres pr?cticos.\nLecturas y entregas asociadas.\nAyudant?as y apoyos.\n[PENDIENTE: completar calendario detallado]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nEstadística Social I\n",
+    "section": "",
+    "text": "Sociología · 3° semestre · 6 SCT · Universidad Finis Terrae 2026\n\n\nEstadística Social I\n\n\nHerramientas estadísticas descriptivas para investigar fenómenos sociales con datos.\n\n\n\n\nVer programa Ver clases Ver ayudantías\n\n\nHorario: [PENDIENTE: completar] Sala: [PENDIENTE: completar]  Asistencia mínima: 70%\n\n\n\n\n\n\n\n\n\nAccesos rápidos:\n\nCalendarización Evluaciones Bibliografia Información\n\n\n\n\n\n\n\n\n\n\n\nDaniela Olivares Collío\n\n\nDocencte\n\n\n\n\n\nCorreo: danielaolivarescollio@gmail.com\n\n\nHorario de atención: [PENDIENTE: horario]\n\n\nModalidad: [PENDIENTE: presencial/virtual]\n\n\n\n\n\n\n\n\n\n\nKatherine Aravena Herrera\n\n\nAyudante\n\n\n\n\n\nCorreo:katherine.aravena@ug.uchile.cl\n\n\n\n\n\n\n\n\n\nÚltima información\n\n\n\n[PENDIENTE: fecha] [PENDIENTE: aviso breve del curso]\n\n\n[PENDIENTE: fecha] [PENDIENTE: aviso breve del curso]\n\n\n[PENDIENTE: fecha] [PENDIENTE: aviso breve del curso]\n\n\n\nVer todas las actualizaciones"
+  },
+  {
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa",
+    "section": "",
+    "text": "Programa\nEsta p?gina re?ne la estructura oficial de la asignatura y su organizaci?n acad?mica.\n\nIdentificaci?n institucional y datos base de la asignatura.\nDescripci?n general y prop?sito formativo.\nCompetencias y resultados de aprendizaje (macro y micro).\nUnidades y contenidos por temas.\nMetodolog?as de ense?anza.\n[PENDIENTE: completar con el programa oficial]"
+  },
+  {
+    "objectID": "clases.html",
+    "href": "clases.html",
+    "title": "Clases",
+    "section": "",
+    "text": "Aqu? se organizar?n las clases por semanas/temas con acceso a materiales.\n\nIndice por semanas.\nApuntes, diapositivas y gu?as.\nActividades de clase.\nConvenci?n de carpetas para materiales.\n[PENDIENTE: enlazar materiales por semana]\n\n\n\n[PENDIENTE: contenido de c?tedra]\n[PENDIENTE: contenido de taller R]"
+  },
+  {
+    "objectID": "clases.html#catedra",
+    "href": "clases.html#catedra",
+    "title": "Clases",
+    "section": "",
+    "text": "[PENDIENTE: contenido de c?tedra]\n[PENDIENTE: contenido de taller R]"
+  },
+  {
+    "objectID": "evaluaciones.html",
+    "href": "evaluaciones.html",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Evaluaciones\nEsta p?gina describe el sistema de evaluaci?n del curso.\n\nTabla de evaluaciones y ponderaciones.\nF?rmulas de nota de presentaci?n (NP) y nota final (NF).\nReglas de aprobaci?n y asistencia.\nIndicaciones para entregas.\n[PENDIENTE: incorporar fechas y detalles espec?ficos]"
+  },
+  {
+    "objectID": "informacion.html",
+    "href": "informacion.html",
+    "title": "Informaci?n",
+    "section": "",
+    "text": "Informaci?n\nEsta secci?n re?ne informaci?n administrativa y de contacto del curso.\n\nDocente responsable y equipo.\nCanales de contacto.\nHorarios de atenci?n.\nNormas del curso y convivencia.\n[PENDIENTE: completar datos de contacto y horarios]"
   }
 ]

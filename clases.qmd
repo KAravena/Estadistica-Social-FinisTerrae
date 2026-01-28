@@ -6,16 +6,15 @@ title: "Clases"
 
 Aqu? se organizar?n las clases por semanas/temas con acceso a materiales.
 
-- ?ndice por semanas.
+- Indice por semanas.
 - Apuntes, diapositivas y gu?as.
 - Actividades de clase.
 - Convenci?n de carpetas para materiales.
 - [PENDIENTE: enlazar materiales por semana]
 
-## C?tedra {#catedra}
+## Catedra {#catedra}
 
 [PENDIENTE: contenido de c?tedra]
 
-## Taller R {#taller-r}
 
 [PENDIENTE: contenido de taller R]

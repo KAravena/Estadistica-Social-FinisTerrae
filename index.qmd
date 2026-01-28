@@ -1,12 +1,10 @@
 ---
-title: "Estadística Social I"
-pagetitle: "Metodología de la Investigación Social"
 title-block: false
 page-layout: full
 toc: false
 ---
 
-::: {.hero-course}
+::: {.hero-course .hero-motion-on}
 <div class="hero-motion" aria-hidden="true"></div>
 <div class="container-fluid px-4 px-md-5 py-5">
 <div class="row align-items-center g-5">
@@ -38,11 +36,9 @@ toc: false
 <div class="quick-links-row d-flex align-items-center gap-3 flex-nowrap mt-2 mb-3">
 <span class="quick-links-label">Accesos rápidos:</span>
 <div class="quick-links d-flex flex-nowrap gap-2">
-<a href="programa.qmd" class="btn btn-primary btn-sm">Programa</a>
-<a href="calendarizacion.qmd" class="btn btn-outline-secondary btn-sm">Calendarización</a>
-<a href="clases.qmd" class="btn btn-outline-secondary btn-sm">Clases</a>
-<a href="ayudantias.qmd" class="btn btn-outline-secondary btn-sm">Ayudantías</a>
-<a href="recursos.qmd" class="btn btn-outline-secondary btn-sm">Recursos</a>
+<a href="calendarizacion.qmd" class="btn btn-primary btn-sm">Calendarización</a>
+<a href="evaluaciones.qmd" class="btn btn-outline-secondary btn-sm">Evluaciones</a>
+<a href="bibliografia.qmd" class="btn btn-outline-secondary btn-sm">Bibliografia</a>
 <a href="informacion.qmd" class="btn btn-outline-secondary btn-sm">Información</a>
 </div>
 </div>
@@ -58,7 +54,7 @@ toc: false
 </div>
 </div>
 <ul class="list-unstyled small mb-0">
-<li><strong>Correo:</strong> [danielaolivarescollio@gmail.com]</li>
+<li><strong>Correo:</strong> danielaolivarescollio@gmail.com</li>
 <li><strong>Horario de atención:</strong> [PENDIENTE: horario]</li>
 <li><strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]</li>
 </ul>
@@ -73,8 +69,6 @@ toc: false
 </div>
 <ul class="list-unstyled small mb-0">
 <li><strong>Correo:</strong>katherine.aravena@ug.uchile.cl</li>
-<li><strong>Horario de atención:</strong> [PENDIENTE: horario]</li>
-<li><strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]</li>
 </ul>
 </div>
 </div>
@@ -102,4 +96,3 @@ toc: false
 </div>
 </div>
 </div>
-
