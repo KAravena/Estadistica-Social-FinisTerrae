@@ -15,9 +15,9 @@ toc: false
 <p class="text-muted"></p>
 
 <div class="d-flex flex-wrap gap-2 mt-4 hero-cta">
-<a href="programa.qmd" class="btn btn-primary btn-md">Ver programa</a>
-<a href="clases.qmd" class="btn btn-outline-secondary btn-md">Ver clases</a>
-<a href="ayudantias.qmd" class="btn btn-outline-secondary btn-md">Ver ayudantías</a>
+<a href="programa.html" class="btn btn-primary btn-md">Ver programa</a>
+<a href="clases.html" class="btn btn-outline-secondary btn-md">Ver clases</a>
+<a href="ayudantias.html" class="btn btn-outline-secondary btn-md">Ver ayudantías</a>
 </div>
 
 <div class="mt-4 small text-muted">
@@ -36,10 +36,10 @@ toc: false
 <div class="quick-links-row d-flex align-items-center gap-3 flex-nowrap mt-2 mb-3">
 <span class="quick-links-label">Accesos rápidos:</span>
 <div class="quick-links d-flex flex-nowrap gap-2">
-<a href="calendarizacion.qmd" class="btn btn-primary btn-sm">Calendarización</a>
-<a href="evaluaciones.qmd" class="btn btn-outline-secondary btn-sm">Evaluaciones</a>
-<a href="bibliografia.qmd" class="btn btn-outline-secondary btn-sm">Bibliografia</a>
-<a href="informacion.qmd" class="btn btn-outline-secondary btn-sm">Información</a>
+<a href="calendarizacion.html" class="btn btn-primary btn-sm">Calendarización</a>
+<a href="evaluaciones.html" class="btn btn-outline-secondary btn-sm">Evaluaciones</a>
+<a href="bibliografia.html" class="btn btn-outline-secondary btn-sm">Bibliografia</a>
+<a href="informacion.html" class="btn btn-outline-secondary btn-sm">Información</a>
 </div>
 </div>
 
@@ -47,35 +47,39 @@ toc: false
 <div class="team-grid">
 <div class="team-item">
 <div class="d-flex align-items-center gap-3 mb-3">
-<div class="avatar-placeholder" aria-hidden="true"></div>
+<div class="avatar-placeholder">
+<img src="resources/Daniela.jpg" alt="Fotografía de Daniela Olivares Collío" loading="lazy">
+</div>
 <div>
 <div class="fw-semibold">Daniela Olivares Collío</div>
 <div class="text-muted small">Docencte</div>
 </div>
 </div>
 <ul class="list-unstyled small mb-0">
-<li><strong>Correo:</strong> danielaolivarescollio@gmail.com</li>
+<li><strong>Correo:</strong> <a href="mailto:danielaolivarescollio@gmail.com">danielaolivarescollio@gmail.com</a></li>
 <li><strong>Horario de atención:</strong> [PENDIENTE: horario]</li>
 <li><strong>Modalidad:</strong> [PENDIENTE: presencial/virtual]</li>
 </ul>
 </div>
 <div class="team-item">
 <div class="d-flex align-items-center gap-3 mb-3">
-<div class="avatar-placeholder" aria-hidden="true"></div>
+<div class="avatar-placeholder">
+<img src="resources/Katherine.jpg" alt="Fotografía de Katherine Aravena Herrera" loading="lazy">
+</div>
 <div>
 <div class="fw-semibold">Katherine Aravena Herrera</div>
 <div class="text-muted small">Ayudante</div>
 </div>
 </div>
 <ul class="list-unstyled small mb-0">
-<li><strong>Correo:</strong>katherine.aravena@ug.uchile.cl</li>
+<li><strong>Correo:</strong> <a href="mailto:katherine.aravena@ug.uchile.cl">katherine.aravena@ug.uchile.cl</a></li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 <div class="course-right">
-<a href="ultima-informacion.qmd" class="latest-card" aria-label="Ver última información del curso">
+<a href="ultima-informacion.html" class="latest-card" aria-label="Ver última información del curso">
 <div class="latest-title">Última información</div>
 <div class="latest-feed" aria-label="Últimas actualizaciones">
 <div class="latest-item">

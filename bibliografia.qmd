@@ -155,7 +155,7 @@ Cea D’Ancona, M. Á. (2001). *Metodología cuantitativa: Estrategias y técnic
 ::: {.column width="30%"}
 
 ::: {.callout-note appearance="simple" .biblio-sidebox}
-**Sugerencias de uso (para estudiantes)**
+**Sugerencias de uso:**
 
 - Parte por **Johnson & Kuby** si necesitas reforzar bases (por ejemplo: gráficos, medidas resumen, probabilidad y distribuciones).
 - Usa **Agresti & Finlay** como texto “eje” para el curso (aplica técnicas a problemas típicos de ciencias sociales).

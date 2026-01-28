@@ -1,13 +1,3 @@
 ---
 title: "Evaluaciones"
 ---
-
-# Evaluaciones
-
-Esta p?gina describe el sistema de evaluaci?n del curso.
-
-- Tabla de evaluaciones y ponderaciones.
-- F?rmulas de nota de presentaci?n (NP) y nota final (NF).
-- Reglas de aprobaci?n y asistencia.
-- Indicaciones para entregas.
-- [PENDIENTE: incorporar fechas y detalles espec?ficos]
