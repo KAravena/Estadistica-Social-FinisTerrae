@@ -23,7 +23,7 @@ toc: false
 <div class="mt-4 small text-muted">
 <span class="me-3">Horario: [PENDIENTE: completar]</span>
 <span class="me-3">Sala: [PENDIENTE: completar] </span>
-<span>Asistencia mínima: 70%</span>
+<span>Asistencia mínima: 75%</span>
 </div>
 </div>
 </div>
