@@ -25,7 +25,7 @@ El sitio contiene:
 | Rol | Nombre | Contacto |
 |-----|--------|----------|
 | **Profesora** | Daniela Olivares Collío | danielaolivarescollio@gmail.com |
-| **Ayudante** | Katherine Aravena | katherine.aravena@ug.uchile.cl |
+| **Ayudante** | Katherine Aravena Herrera | katherine.aravena@ug.uchile.cl |
 
 ---
 
@@ -67,3 +67,4 @@ El sitio contiene:
 | **Código** (HTML, CSS, configuración) | [MIT](https://opensource.org/licenses/MIT) |
 
 ---
+
