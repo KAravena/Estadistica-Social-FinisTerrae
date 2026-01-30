@@ -1,51 +1,69 @@
-# 📚 Repositorio de Apuntes de Sociología | U. de Chile
+# Estadística Social I — Universidad Finis Terrae
 
-## Descripción del proyecto
-Este repositorio centraliza **apuntes y materiales de Sociología** de la Universidad de Chile, organizados por **año**, **semestre** y **curso**.  
+## 🌐 Sitio web
 
-El proyecto utiliza **[Quarto](https://quarto.org/)** para la gestión y publicación de contenidos, con despliegue automático mediante **GitHub Pages** y próximamente **Netlify**.  
+**[utf-estadistica-social-i.netlify.app](https://utf-estadistica-social-i.netlify.app)**
+
+---
+## Descripción
+
+Sitio web del curso **Estadística Social I** de la carrera de Sociología en la Universidad Finis Terrae (Chile).
+
+El sitio contiene:
+-**Programa** del curso
+-**Calendarización** visual de clases y evaluaciones
+-**Presentaciones** de clases (embebidas en el sitio)
+-**Ayudantías** y materiales de apoyo
+-**Evaluaciones** y rúbricas
+-**Bibliografía** del curso
+-**Recursos** para aprender R, RStudio y Quarto
 
 ---
 
-## Objetivo
-El objetivo principal es **crear un espacio abierto y colaborativo** para almacenar y compartir el increíble material que estudiantes generan a lo largo de la carrera.  
+## Equipo
 
-- Facilitar el acceso a **apuntes, resúmenes y bibliografía**.  
-- Fomentar la **colaboración** y el trabajo colectivo.  
-- Construir **conocimiento en común**, como parte del aprendizaje universitario.  
-- Asegurar que materiales de valor no se pierdan, sino que queden disponibles para nuevas generaciones.  
-
----
-
-## Estructura del repositorio
-- `/apuntes/` → Apuntes organizados en carpetas por curso.  
-- `/cursos.qmd` → Página con listado de cursos y organización por año.  
-- `/about.qmd` → Información sobre el formato de apuntes y cómo contribuir.  
-- `/resources/imagenes/` → Logos, imágenes y fotos del equipo.  
-- `/docs/` → Carpeta de salida para **GitHub Pages** (no editar directamente).  
+| Rol | Nombre | Contacto |
+|-----|--------|----------|
+| **Profesora** | Daniela Olivares Collío | danielaolivarescollio@gmail.com |
+| **Ayudante** | Katherine Aravena | katherine.aravena@ug.uchile.cl |
 
 ---
 
-##  Disclaimer
-Este repositorio **no reemplaza la creación de apuntes propios ni el estudio personal**.  
-El objetivo no es incentivar que los estudiantes dejen de hacer sus materiales, sino:  
+## 🛠️ Tecnologías
 
-- **Conservar** los apuntes que ya producimos en conjunto.  
-- **Complementar** el aprendizaje individual.  
-- **Ofrecer un recurso colectivo** para fortalecer el trabajo colaborativo y la construcción compartida de conocimiento.  
-
-Cada estudiante sigue siendo responsable de **elaborar y comprender su propio material**, siendo este repositorio un apoyo y no un sustituto.
+- [Quarto](https://quarto.org/) — Generador de sitios estáticos
+- [Bootstrap 5](https://getbootstrap.com/) — Framework CSS
+- [Netlify](https://www.netlify.com/) — Hosting y deploy continuo
+- [GitHub](https://github.com/) — Control de versiones
 
 ---
 
-## Contacto
-Si quieres aportar o colaborar:   
-- O escríbenos al correo del equipo (por definir).  
+## Estructura del proyecto
+
+```
+├── _quarto.yml          # Configuración del sitio
+├── index.qmd            # Página de inicio
+├── programa.qmd         # Programa del curso
+├── calendarizacion.qmd  # Calendario visual
+├── clases.qmd           # Presentaciones de clases
+├── ayudantias.qmd       # Materiales de ayudantías
+├── evaluaciones.qmd     # Información de evaluaciones
+├── bibliografia.qmd     # Referencias bibliográficas
+├── Recursos.qmd         # Recursos para R y Quarto
+├── ultima-informacion.qmd # Últimas noticias
+├── styles.css           # Estilos personalizados
+├── resources/
+│   ├── clases/          # Archivos PPTX de presentaciones
+│   ├── imagenes/        # Logos e imágenes
+│   └── biblio/          # Archivos de bibliografía
+└── docs/                # Sitio compilado (output)
+```
+
+## Licencias
+
+| Tipo | Licencia |
+|------|----------|
+| **Contenido** (textos, presentaciones) | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+| **Código** (HTML, CSS, configuración) | [MIT](https://opensource.org/licenses/MIT) |
 
 ---
-**Aprender es colectivo. Sociología que se teje en comunidad.**
-
-
-
-## Nota de publicacion
-`_site/` esta versionado como salida historica. Se mantiene por ahora y se eliminara en una fase posterior.
