@@ -1,3 +1,5 @@
+<img src="resources/imagenes/logo.svg" alt="favicon" width="40" height="40" align="left" style="margin-right: 12px;"/>
+
 # Estadística Social I — Universidad Finis Terrae
 
 ## 🌐 Sitio web
@@ -67,4 +69,5 @@ El sitio contiene:
 | **Código** (HTML, CSS, configuración) | [MIT](https://opensource.org/licenses/MIT) |
 
 ---
+
 
