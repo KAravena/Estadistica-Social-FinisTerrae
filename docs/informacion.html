@@ -103,6 +103,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-clases" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Clases</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-clases">    
+        <li>
+    <a class="dropdown-item" href="./clases.html#catedra">
+ <span class="dropdown-text">Catedra</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ayudantias.html">
+ <span class="dropdown-text">Ayudantías</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-curso" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Curso</span>
     </a>
@@ -122,21 +137,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./bibliografia.html">
  <span class="dropdown-text">Bibliografía</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-clases" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Clases</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-clases">    
-        <li>
-    <a class="dropdown-item" href="./clases.html#catedra">
- <span class="dropdown-text">Catedra</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./ayudantias.html">
- <span class="dropdown-text">Ayudantías</span></a>
   </li>  
     </ul>
   </li>
@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/karavena\.github\.io\/Estadistica-Social-FinisTerrae");
+        var filterRegex = new RegExp("https:\/\/utf-estadistica-social-i\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -619,7 +619,10 @@ ul.task-list li input[type="checkbox"] {
 <i class="bi bi-braces"></i><span>Hecho con <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a></span>
 </div>
 <div class="footer-line">
-<i class="bi bi-github"></i><a href="https://github.com/KAravena/Estadistica-Social-FinisTerrae" target="_blank" rel="noopener">Ver el código en GitHub</a>
+<i class="bi bi-cc-circle"></i><a href="https://opensource.org/license/mit" target="_blank" rel="noopener">Código bajo licencia MIT</a>
+</div>
+<div class="footer-line">
+<i class="bi bi-github"></i><a href="https://github.com/KAravena/Estadistica-Social-FinisTerrae" target="_blank" rel="noopener">Ver en GitHub</a>
 </div>
 </div>
 </div>

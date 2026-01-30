@@ -1,3 +1,278 @@
+/* Clases: barra lateral fija (margen derecho) */
+.clases-sidebar .nav-pills {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.clases-sidebar .nav-pills .nav-link {
+  text-align: left;
+}
+
+/* Links de clases simples */
+.clase-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #495057;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.clase-link:hover {
+  color: #0d6efd;
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+.clase-link.active {
+  color: #0d6efd;
+  font-weight: 600;
+  background-color: rgba(13, 110, 253, 0.1);
+}
+
+/* Presentación de clase: título arriba, slide grande, info abajo */
+.clase-presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+}
+
+.clase-titulo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #495057;
+  margin: 0.25rem 0 0.5rem 0;
+  text-align: left;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.clase-slide {
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 0.5rem;
+}
+
+.clase-slide .ratio {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.clase-slide .ratio-16x9 {
+  --bs-aspect-ratio: 50%;
+}
+
+.clase-slide .ratio iframe {
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.clase-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 0.25rem;
+}
+
+.clase-titulo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #495057;
+  margin: 0;
+  display: inline;
+}
+
+.clase-descarga {
+  font-size: 0.9rem;
+  display: inline;
+  margin: 0;
+}
+
+.clase-descarga a {
+  display: inline-block;
+  background-color: #3d8b8b;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2rem;
+  font-size: 0.65rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.clase-descarga a::before,
+.clase-descarga a::after {
+  display: none !important;
+  content: none !important;
+}
+
+.clase-descarga i {
+  display: none !important;
+}
+
+.clase-descarga a:hover {
+  background-color: #2d7070;
+  text-decoration: none;
+}
+
+/* Contenido principal ocupa todo el ancho disponible */
+@media (min-width: 992px) {
+  .clases-page .tab-content {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+  
+  .clases-page .column {
+    width: 100% !important;
+    flex: 1 1 100% !important;
+    max-width: calc(100vw - 360px) !important;
+    padding-right: 1rem;
+  }
+  
+  .clases-page .columns {
+    display: block !important;
+  }
+  
+  .clases-page main#quarto-document-content {
+    padding-right: 340px;
+    padding-left: 1rem;
+    padding-top: 0;
+    margin-top: 0;
+    max-width: 100%;
+  }
+  
+  .clases-page #quarto-content {
+    max-width: 100%;
+  }
+  
+  .clases-page .tab-pane {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+/* Botones de unidad desplegable */
+.sidebar-unit-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 0;
+}
+
+.sidebar-unit-toggle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+}
+
+.sidebar-unit-toggle:hover {
+  text-decoration: none;
+}
+
+.sidebar-unit-toggle:hover .unit-title {
+  color: #0d6efd;
+}
+
+.unit-label-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.unit-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.unit-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #212529;
+  line-height: 1.3;
+}
+
+.sidebar-unit-toggle .bi {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-unit-toggle[aria-expanded="false"] .bi {
+  transform: rotate(-90deg);
+}
+
+/* Sidebar fijo a la derecha (desktop) */
+@media (min-width: 992px) {
+  .clases-page .clases-sidebar {
+    position: fixed !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 320px !important;
+    height: 100vh !important;
+    overflow-y: auto;
+    z-index: 900; /* menor que el footer */
+    background: #ffffff;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5rem 1rem 1.5rem 1rem; /* padding-top para no tapar con navbar */
+  }
+
+  /* Asegura que el contenedor del margin no mueva el sidebar */
+  .clases-page .column-margin {
+    position: static !important;
+  }
+
+  /* Deja espacio al contenido para que no quede centrado */
+  .clases-page main#quarto-document-content {
+    padding-right: 340px;
+  }
+
+  /* Footer por encima del sidebar */
+  .clases-page footer {
+    position: relative;
+    z-index: 1030;
+  }
+}
+
+/* En pantallas chicas, sidebar normal */
+@media (max-width: 991.98px) {
+  .clases-page .clases-sidebar {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+
+  .clases-page main#quarto-document-content {
+    padding-right: 0;
+  }
+}
 .badge-year-min {
   display: flex;
   flex-direction: column;
