@@ -12,7 +12,7 @@ project:
     - ayudantias.qmd
     - evaluaciones.qmd
     - bibliografia.qmd
-    - informacion.qmd
+    - Recursos.qmd
     - ultima-informacion.qmd
 
 website:
@@ -58,8 +58,8 @@ website:
             href: evaluaciones.qmd
           - text: "Bibliografía"
             href: bibliografia.qmd
-      - text: "Información"
-        href: informacion.qmd
+      - text: "Recursos"
+        href: Recursos.qmd
 
     tools:
       - icon: github

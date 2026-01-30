@@ -44,9 +44,9 @@
   {
     "objectID": "calendarizacion.html",
     "href": "calendarizacion.html",
-    "title": "Calendarización del curso",
+    "title": "Estadística Social I",
     "section": "",
-    "text": "Calendarización del curso\n\n\n\n\n\n\nActualización continua\nSi ocurre algún ajuste (p. ej., cambio de fecha o foco de ayudantía) se reflejará en esta tabla y en la sección de Última información.\n\nLas semanas sin número de clase corresponden a evaluaciones, feriados o actividades especiales.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nFecha\nClase\nContenidos de la clase\nContenidos en R\nAyudantía\nContenidos de la ayudantía\n\n\n\n\n1\n09/03/2026\n—\nSin clases (inicio de semestre)\n—\n—\n—\n\n\n2\n16/03/2026\n1\n1.1 Fundamentos de la investigación social cuantitativa1.2 Características de la investigación social cuantitativa1.3 Problema de investigación cuantitativo1.4 Conceptualización y operacionalización\n—\n—\n—\n\n\n3\n23/03/2026\n2\n2.1 Nociones de universo, población y muestra2.2 Tipos de muestreo2.3 Técnicas de recolección y procesamiento de datos\nIntroducción a R\n—\n—\n\n\n4\n30/03/2026\n3\n2.4 Elaboración de una matriz de datos y su libro de códigos\nBases de datos\n—\n—\n\n\n5\n06/04/2026\n4\n2.5 Noción de distribución3.1 Tipos de análisis estadístico univariado\nProcesamiento\n1\nProcesamiento\n\n\n6\n13/04/2026\n—\nPrueba\n—\n—\n—\n\n\n7\n20/04/2026\n5\n3.2 Frecuencias3.3 Medidas de tendencia central3.4 Medidas de dispersión\nMedidas de tendencia central y dispersión\n—\n—\n\n\n8\n27/04/2026\n6\n3.5 Medidas de posición3.6 Medidas de forma3.7 Visualización\nMedidas de posición y forma\n2\nMedidas de tendencia central, dispersión, posición, forma y su visualización\n\n\n9\n04/05/2026\n7\n4.1 Tipos de análisis estadístico bivariado4.2 Tablas de contingencia\nTablas de contingencia\n—\n—\n\n\n10\n11/05/2026\n8\n4.3 Correlación4.4 Visualización\nCorrelación\n3\nAnálisis bivariado, correlación y su visualización\n\n\n11\n18/05/2026\n9\n4.5 Indicadores, índices y escalas\nIndicadores, índices y escalas\n—\n—\n\n\n12\n25/05/2026\n—\nPrueba\n—\n—\n—\n\n\n13\n01/06/2026\n10\nInformes reproducibles\nInformes en Quarto\n4\nInformes en Quarto\n\n\n14\n08/06/2026\n11\nAvance de trabajo\nInformes en Quarto\n—\n—\n\n\n15\n15/06/2026\n—\nPresentaciones de trabajo\n—\n—\n—\n\n\n16\n22/06/2026\n—\nEntrega final de trabajo\n—\n—\n—\n\n\n17\n29/06/2026\n—\nFeriado\n—\n—\n—\n\n\n18\n06/07/2026\n—\nExamen\n—\n—\n—"
+    "text": "Actualización continua: Si ocurre algún ajuste (p. ej., cambio de fecha) se reflejará aquí y en la sección de Última información.\n\n\n  \n    \n      \n      \n      \n        Marzo 2026\n        \n          \n          \n            \n              S1\n              09 Mar\n            \n            \n              Inicio de semestre\n              Sin clases\n            \n          \n          \n          \n            \n              S2\n              16 Mar\n            \n            \n              Clase 1\n              Fundamentos de la investigación social cuantitativa · Conceptualización y operacionalización\n            \n          \n          \n          \n            \n              S3\n              23 Mar\n            \n            \n              Clase 2\n              R: Intro\n              Universo, población y muestra · Tipos de muestreo · Técnicas de recolección\n            \n          \n          \n          \n            \n              S4\n              30 Mar\n            \n            \n              Clase 3\n              R: Bases de datos\n              Elaboración de una matriz de datos y libro de códigos\n            \n          \n          \n        \n      \n      \n      \n      \n        Abril 2026\n        \n          \n          \n            \n              S5\n              06 Abr\n            \n            \n              Clase 4\n              R: Procesamiento\n              Ayud. 1\n              Noción de distribución · Análisis estadístico univariado\n            \n          \n          \n          \n            \n              S6\n              13 Abr\n            \n            \n              Prueba\n            \n          \n          \n          \n            \n              S7\n              20 Abr\n            \n            \n              Clase 5\n              R: Tendencia y dispersión\n              Frecuencias · Medidas de tendencia central · Medidas de dispersión\n            \n          \n          \n          \n            \n              S8\n              27 Abr\n            \n            \n              Clase 6\n              R: Posición y forma\n              Ayud. 2\n              Medidas de posición · Medidas de forma · Visualización\n            \n          \n          \n        \n      \n      \n      \n      \n        Mayo 2026\n        \n          \n          \n            \n              S9\n              04 May\n            \n            \n              Clase 7\n              R: Contingencia\n              Análisis estadístico bivariado · Tablas de contingencia\n            \n          \n          \n          \n            \n              S10\n              11 May\n            \n            \n              Clase 8\n              R: Correlación\n              Ayud. 3\n              Correlación · Visualización\n            \n          \n          \n          \n            \n              S11\n              18 May\n            \n            \n              Clase 9\n              R: Índices y escalas\n              Indicadores, índices y escalas\n            \n          \n          \n          \n            \n              S12\n              25 May\n            \n            \n              Prueba\n            \n          \n          \n        \n      \n      \n      \n      \n        Junio 2026\n        \n          \n          \n            \n              S13\n              01 Jun\n            \n            \n              Clase 10\n              R: Quarto\n              Ayud. 4\n              Informes reproducibles\n            \n          \n          \n          \n            \n              S14\n              08 Jun\n            \n            \n              Clase 11\n              R: Quarto\n              Avance de trabajo\n            \n          \n          \n          \n            \n              S15\n              15 Jun\n            \n            \n              Presentaciones\n              Presentaciones de trabajo\n            \n          \n          \n          \n            \n              S16\n              22 Jun\n            \n            \n              Entrega\n              Entrega final de trabajo\n            \n          \n          \n          \n            \n              S17\n              29 Jun\n            \n            \n              Feriado\n            \n          \n          \n        \n      \n      \n      \n      \n        Julio 2026\n        \n          \n          \n            \n              S18\n              06 Jul\n            \n            \n              Examen\n            \n          \n          \n        \n      \n      \n    \n    \n    \n    \n      Próximamente\n      \n      \n        16 Mar\n        Clase 1\n        Fundamentos de la investigación social cuantitativa\n      \n      \n      \n        23 Mar\n        Clase 2\n        Universo, población y muestra\n      \n      \n      \n        13 Abr\n        Prueba\n        Primera evaluación"
   },
   {
     "objectID": "index.html",
@@ -70,10 +70,66 @@
     "text": "Introducción al curso y a la estadística social\n        Descargar diapositivas\n      \n    \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        Introducción a la investigación social cuantitativa\n        Descargar diapositivas\n      \n    \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        Construcción del problema de investigación cuantitativa\n        Descargar diapositivas\n      \n    \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        Variables, indicadores y operacionalización\n        Descargar diapositivas\n      \n    \n  \n\n\n\n\n  \n    \n    \n    \n      \n        \n          Unidad 0\n          Presentación del curso\n        \n        \n      \n    \n    \n      Clase 00 – Introducción al curso y a la estadística social\n    \n\n    \n    \n      \n        \n          Unidad 1\n          Introducción a la investigación social cuantitativa\n        \n        \n      \n    \n    \n      Clase 01 – Introducción a la investigación social cuantitativa\n      Clase 02 – Construcción del problema de investigación cuantitativa\n      Clase 03 – Variables, indicadores y operacionalización"
   },
   {
-    "objectID": "informacion.html",
-    "href": "informacion.html",
-    "title": "Informaci?n",
+    "objectID": "Recursos.html",
+    "href": "Recursos.html",
+    "title": "Recursos",
     "section": "",
-    "text": "Informaci?n\nEsta secci?n re?ne informaci?n administrativa y de contacto del curso.\n\nDocente responsable y equipo.\nCanales de contacto.\nHorarios de atenci?n.\nNormas del curso y convivencia.\n[PENDIENTE: completar datos de contacto y horarios]"
+    "text": "Esta sección reúne recursos útiles para el desarrollo del curso: guías de software, bases de datos y materiales de apoyo."
+  },
+  {
+    "objectID": "Recursos.html#quarto-markdown-y-entrega-de-trabajos",
+    "href": "Recursos.html#quarto-markdown-y-entrega-de-trabajos",
+    "title": "Recursos",
+    "section": "2) Quarto, Markdown y entrega de trabajos",
+    "text": "2) Quarto, Markdown y entrega de trabajos\n\n\nQuarto — documentación oficial\nPara entender cómo funcionan los archivos .qmd, el render y los formatos de entrega.\n\nGuía de inicio (Quarto)\nMarkdown básico en Quarto\nComponentes útiles (callouts, tabs, layouts)\n\n\n\nMarkdown en español\nPara aprender a escribir informes claros y ordenados.\n\nGuía Markdown en español\nMarkdown explicado paso a paso"
+  },
+  {
+    "objectID": "Recursos.html#aprender-r-desde-cero",
+    "href": "Recursos.html#aprender-r-desde-cero",
+    "title": "Recursos",
+    "section": "3) Aprender R desde cero",
+    "text": "3) Aprender R desde cero\n\n\nRStudio Primers (interactivos)\nIdeales para empezar sin saber nada.\n\nRStudio Primers (Posit)\n\n\n\nR para principiantes\n\nR para Ciencia de Datos (español)\nCurso Introducción a R (U. de Chile)"
+  },
+  {
+    "objectID": "Recursos.html#importar-datos-en-r",
+    "href": "Recursos.html#importar-datos-en-r",
+    "title": "Recursos",
+    "section": "4) Importar datos en R",
+    "text": "4) Importar datos en R\n\n\nCSV y Excel\nPara bases de datos típicas de clase.\n\nreadr::read_csv()\nreadxl::read_excel()\n\n\n\nSPSS / Stata (común en encuestas)\n\nPaquete haven\nImportar SPSS (.sav)\nImportar Stata (.dta)"
+  },
+  {
+    "objectID": "Recursos.html#procesamiento-y-análisis-de-datos",
+    "href": "Recursos.html#procesamiento-y-análisis-de-datos",
+    "title": "Recursos",
+    "section": "5) Procesamiento y análisis de datos",
+    "text": "5) Procesamiento y análisis de datos\n\n\nTidyverse (principal del curso)\n\nCheatsheets oficiales (español e inglés)\nIncluye dplyr, tidyr, ggplot2 en una sola página.\n\n\n\nBase R (plan B)\n\nManuales oficiales de R (CRAN)"
+  },
+  {
+    "objectID": "Recursos.html#visualización-de-datos",
+    "href": "Recursos.html#visualización-de-datos",
+    "title": "Recursos",
+    "section": "6) Visualización de datos",
+    "text": "6) Visualización de datos\n\n\nR Graph Gallery\nGalería por tipo de gráfico con código reproducible.\n\nR Graph Gallery\n\n\n\nggplot2 (guías prácticas)\n\nCheat sheet ggplot2 (Posit)\nGuía ggplot2 en español"
+  },
+  {
+    "objectID": "Recursos.html#estadística-descriptiva",
+    "href": "Recursos.html#estadística-descriptiva",
+    "title": "Recursos",
+    "section": "7) Estadística descriptiva",
+    "text": "7) Estadística descriptiva\n\nRecursos claros y didácticos\n\nManual de Estadística Descriptiva con R (U. de Chile)\nsjmisc y sjPlot (tablas y gráficos)"
+  },
+  {
+    "objectID": "Recursos.html#bases-de-datos-reales-para-practicar",
+    "href": "Recursos.html#bases-de-datos-reales-para-practicar",
+    "title": "Recursos",
+    "section": "8) Bases de datos reales para practicar",
+    "text": "8) Bases de datos reales para practicar\n\n\nChile\n\nCASEN (Observatorio Social)\nEncuesta CEP\nELSOC (COES – Harvard Dataverse)\nENE (INE)\n\n\n\nInternacionales\n\nILOSTAT (OIT)\nOECD Data\nWorld Bank Open Data"
+  },
+  {
+    "objectID": "Recursos.html#instalar-r-y-rstudio",
+    "href": "Recursos.html#instalar-r-y-rstudio",
+    "title": "Recursos",
+    "section": "1) Instalar R y RStudio",
+    "text": "1) Instalar R y RStudio\n\n\nDescargas oficiales\nPrimero instala R, luego RStudio.\n\nDescargar R (CRAN)\nDescargar RStudio Desktop (Posit)\nDescargar Quarto\n\n\n\nVideos tutoriales de instalación\nGuías paso a paso en español.\n\nCómo instalar R y RStudio en Windows (YouTube)\nInstalar R y RStudio en Mac (YouTube)\nPrimeros pasos en RStudio (YouTube)"
   }
 ]
