@@ -630,6 +630,13 @@ pre code{ background:#f4fcf8 !important; color:var(--mint-800) !important; borde
   background: linear-gradient(135deg, var(--mint-700), var(--mint-600));
   border-color: transparent;
 }
+.quick-links .btn.btn-outline-secondary:hover,
+.quick-links .btn.btn-outline-secondary:active,
+.quick-links .btn.btn-outline-secondary:focus-visible{
+  color: var(--mint-950);
+  background: rgba(15,23,42,.08);
+  border-color: rgba(15,23,42,.45);
+}
 
 /* Botones principales del hero */
 .hero-cta .btn{
@@ -646,6 +653,13 @@ pre code{ background:#f4fcf8 !important; color:var(--mint-800) !important; borde
 .hero-cta .btn.btn-primary{
   background: linear-gradient(135deg, var(--mint-700), var(--mint-600));
   border-color: transparent;
+}
+.hero-cta .btn.btn-outline-secondary:hover,
+.hero-cta .btn.btn-outline-secondary:active,
+.hero-cta .btn.btn-outline-secondary:focus-visible{
+  color: var(--mint-950);
+  background: rgba(15,23,42,.08);
+  border-color: rgba(15,23,42,.45);
 }
 .hero-cta .btn:hover{
   transform: translateY(-1px);

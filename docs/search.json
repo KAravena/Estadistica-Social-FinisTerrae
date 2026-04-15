@@ -77,6 +77,13 @@
     "text": "Esta sección reúne recursos útiles para el desarrollo del curso: guías de software, bases de datos y materiales de apoyo."
   },
   {
+    "objectID": "Recursos.html#instalar-r-y-rstudio",
+    "href": "Recursos.html#instalar-r-y-rstudio",
+    "title": "Recursos",
+    "section": "1) Instalar R y RStudio",
+    "text": "1) Instalar R y RStudio\n\n\nDescargas oficiales\nPrimero instala R, luego RStudio.\n\nDescargar R (CRAN)\nDescargar RStudio Desktop (Posit)\nDescargar Quarto\n\n\n\nVideos tutoriales de instalación\nGuías paso a paso en español.\n\nCómo instalar R y RStudio en Windows (YouTube)\nInstalar R y RStudio en Mac (YouTube)\nPrimeros pasos en RStudio (YouTube)"
+  },
+  {
     "objectID": "Recursos.html#quarto-markdown-y-entrega-de-trabajos",
     "href": "Recursos.html#quarto-markdown-y-entrega-de-trabajos",
     "title": "Recursos",
@@ -124,12 +131,5 @@
     "title": "Recursos",
     "section": "8) Bases de datos reales para practicar",
     "text": "8) Bases de datos reales para practicar\n\n\nChile\n\nCASEN (Observatorio Social)\nEncuesta CEP\nELSOC (COES – Harvard Dataverse)\nENE (INE)\n\n\n\nInternacionales\n\nILOSTAT (OIT)\nOECD Data\nWorld Bank Open Data"
-  },
-  {
-    "objectID": "Recursos.html#instalar-r-y-rstudio",
-    "href": "Recursos.html#instalar-r-y-rstudio",
-    "title": "Recursos",
-    "section": "1) Instalar R y RStudio",
-    "text": "1) Instalar R y RStudio\n\n\nDescargas oficiales\nPrimero instala R, luego RStudio.\n\nDescargar R (CRAN)\nDescargar RStudio Desktop (Posit)\nDescargar Quarto\n\n\n\nVideos tutoriales de instalación\nGuías paso a paso en español.\n\nCómo instalar R y RStudio en Windows (YouTube)\nInstalar R y RStudio en Mac (YouTube)\nPrimeros pasos en RStudio (YouTube)"
   }
 ]
