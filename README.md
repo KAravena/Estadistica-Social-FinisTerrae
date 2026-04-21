@@ -4,7 +4,7 @@
 
 ## 🌐 Sitio web
 
-**[utf-estadistica-social-i.netlify.app](https://utf-estadistica-social-i.netlify.app)**
+**[utf-estadistica-social-i.netlify.app](https://uft-estadistica-social-i.netlify.app)**
 
 ---
 ## Descripción
