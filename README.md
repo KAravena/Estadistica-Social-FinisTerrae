@@ -20,17 +20,6 @@ El sitio contiene:
 -**Bibliografía** del curso
 -**Recursos** para aprender R, RStudio y Quarto
 
----
-
-## Equipo
-
-| Rol | Nombre | Contacto |
-|-----|--------|----------|
-| **Profesora** | Daniela Olivares Collío | danielaolivarescollio@gmail.com |
-| **Ayudante** | Katherine Aravena Herrera | katherine.aravena@ug.uchile.cl |
-
----
-
 ## 🛠️ Tecnologías
 
 - [Quarto](https://quarto.org/) — Generador de sitios estáticos
