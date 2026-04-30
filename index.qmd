@@ -12,7 +12,6 @@ toc: false
 <p class="eyebrow">Sociología · 3° semestre · 6 SCT · Universidad Finis Terrae 2026</p>
 <h1 class="display-4 fw-semibold">Estadística Social I</h1>
 <p class="lead">Herramientas estadísticas descriptivas para investigar fenómenos sociales con datos.</p>
-<p class="text-muted">El programa, las evaluaciones y la calendarización semanal están reunidos en la sección Curso.</p>
 
 <div class="d-flex flex-wrap gap-2 mt-4 hero-cta">
 <a href="curso.html" class="btn btn-primary btn-md">Ver curso</a>
